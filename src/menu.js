@@ -20,7 +20,7 @@ export function menu() {
     content.appendChild(header);
     content.appendChild(subheader);
 
-    createMenuItem(content, placeholder, 'McDonie Burger', 'yummy');
+    createCard(content, placeholder, 'McDonie Burger', 'yummy');
 
 
     parent.appendChild(content);
