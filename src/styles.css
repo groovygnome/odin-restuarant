@@ -16,6 +16,14 @@ body{
     background-position: center;
 }
 
+nav{
+    width: 500px;
+    display:flex;
+    justify-content:space-around;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
 header{
     display:flex;
     justify-content:center;
@@ -23,7 +31,18 @@ header{
 }
 
 button{
-    padding: 1.5rem;
+    padding: 1rem;
+    background-color: #dc5283;
+    border-radius: 20px;
+    border: none;
+    font-family: cooper;
+    color: #eecf8e;
+    font-size: 1.5rem;
+    width: 156px;
+}
+
+button:hover{
+    background-color: #db84a3;
 }
 
 #content{
@@ -67,4 +86,32 @@ h2{
 
 .quote > span{
     align-self: flex-end;
+}
+
+.food, .member{
+    display:grid;
+    grid-template-columns:1fr 2fr;
+    gap: 8px;
+}
+
+.food > img, .member > img{
+    border-radius:100%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.so-hot{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.so-hot-img{
+    display: inline;
+    width: 3rem;
+    height: 1.5rem;
+    object-fit: contain;
 }

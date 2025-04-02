@@ -1,4 +1,6 @@
-import placeholder from './imgs/mcdonie.jpg'
+import nancy from './imgs/msnancy.png'
+import jooe from './imgs/joober.png'
+import taeyeon from './imgs/taeyeon.png'
 import { createCard } from './menu'
 
 export function crew() {
@@ -19,7 +21,11 @@ export function crew() {
     content.appendChild(header);
     content.appendChild(subheader);
 
-    createCard(content, placeholder, 'Nancy Jewel Mcdonie', 'The queen bee herself');
+    createCard(content, nancy, 'Nancy Jewel Mcdonie', 'The queen bee herself', 'member');
+    createCard(content, jooe, 'Lee Joo-won', 'Our delivery service', 'member');
+    createCard(content, taeyeon, 'Kim Tae-yeon', 'A darling, a masterpiece, a work of art, unfortunately, not a great singer. Taeyeon is our lead microwave operator.', 'member');
+
+
 
     parent.appendChild(content);
 
