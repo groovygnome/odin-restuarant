@@ -27,7 +27,7 @@ export function home() {
     header2.textContent = "About Nancy's Burgeria";
     para1.textContent = `Welcome to Nancy’s Burgeria, where every bite is a BAAM of flavor! Founded by Nancy Jewel McDonie, former member of MOMOLAND, this isn’t just any burger joint—it’s a place where great food meets great vibes, and every meal feels like a Thumbs Up moment.`;
     para2.textContent = `Nancy’s passion for delicious, high-quality food inspired her to create a menu that’s just as fun, bold, and exciting as her music career. Whether you’re craving a JJan! Koong! Kwang!-sized burger, BBoom BBoom-level crispy fries, or a refreshing milkshake that will make you Freeze!, we’ve got something for everyone.`;
-    para3.textContent = `At Nancy’s Burgeria, we believe in spreading FUN TO THE WORLD with a GREAT! burger experience—one that brings people together, just like MOMOLAND did for fans around the world. So come hungry, bring your Merries, and get ready for a burger adventure that will have you dancing all the way home! Just listen to what our #1 customer Robert has to say!`;
+    para3.textContent = `At Nancy’s Burgeria, we believe in spreading FUN TO THE WORLD with a GREAT! burger experience—one that brings people together, just like MOMOLAND did for fans around the world. So come hungry, bring your Merry's, and get ready for a burger adventure that will have you dancing all the way home! Just listen to what our #1 customer Robert has to say!`;
 
     quote.className = 'quote';
     quoteText.textContent = `Nancy makes the best burgers! Her burgers will make you wonder "What planet is she from?" My favorite order is the McDaddy Deluxe with a side of Daisy's Nachos! If you don't like Nancy's Burgeria then raise your standards.`;

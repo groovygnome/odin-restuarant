@@ -32,11 +32,11 @@ header{
 
 button{
     padding: 1rem;
-    background-color: #dc5283;
+    background-color: #f2ded7;
     border-radius: 20px;
     border: none;
     font-family: cooper;
-    color: #eecf8e;
+    color: #dc5283;
     font-size: 1.5rem;
     width: 156px;
 }
@@ -86,6 +86,8 @@ h2{
 
 .quote > span{
     align-self: flex-end;
+    font-weight: bold;
+    font-style: italic;
 }
 
 .food, .member{
@@ -107,6 +109,7 @@ h2{
     display: flex;
     justify-content: center;
     align-items: end;
+    gap: 2px;
 }
 
 .so-hot-img{

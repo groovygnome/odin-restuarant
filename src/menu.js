@@ -24,10 +24,10 @@ export function menu() {
     content.appendChild(header);
     content.appendChild(subheader);
 
-    createCard(content, mcdonie, 'McDonie Burger', `Nancy's Favorite! This handcrafted delicacy features a rich, aged artisanal bun, naturally ripened with deep-sea minerals for a bold taste. Nestled within is ocean greens, coral sprouts, and exotic fungal pearls. Certain to be delicious for every Merries tastes.`, 'food');
+    createCard(content, mcdonie, 'McDonie Burger', `Nancy's Favorite! This handcrafted delicacy features a rich, aged artisanal bun, naturally ripened with deep-sea minerals for a bold taste. Nestled within is ocean greens, coral sprouts, and exotic fungal pearls. Certain to be delicious for every Merry's tastes.`, 'food');
     createCard(content, mcdaddy, 'McDaddy Deluxe', 'A bold twist on a classic dish! Microwaved hot dogs smothered in frozen chili, drizzled with mustard, and topped with raw onions, served on old stale white bread. <3 Comes with glass of iced skim milk. Original recipe by father McDonie.', 'food');
-    createCard(content, nachos, 'Daisys Nachos', 'Our signature frozen never fresh nachos, this dish is perfectly microwaved to be cold on the outside, and scaldingly hot on the inside.', 'food');
-    createCard(content, popcorn, 'Popcorn', 'yummy', 'food');
+    createCard(content, nachos, `Daisy's Nachos`, 'Our signature frozen never fresh nachos, this day-old dish is perfectly microwaved to be cold on the outside, and scaldingly hot on the inside.', 'food');
+    createCard(content, popcorn, 'Seoul Popcorn', `We collabed with Nancy's favorite popcorn store! Enjoy a popcorn bucket from <a href='https://www.instagram.com/seoul_popcorn_store/'>Seoul Popcorn Store</a>.`, 'food');
 
 
 
@@ -58,7 +58,7 @@ export function createCard(parent, image, name, desc, classNm) {
 
     img.src = image;
     itemName.textContent = name;
-    itemDesc.textContent = desc;
+    itemDesc.innerHTML = desc;
 
     itemInfo.appendChild(itemName);
     itemInfo.appendChild(itemDesc);
