@@ -61,6 +61,7 @@ button:hover{
     padding: 2.5rem;
     text-align: center;
     gap: 18px;
+    margin-bottom: 2.5rem;
 }
 
 .container > h1{
